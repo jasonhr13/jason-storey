@@ -1,0 +1,24 @@
+div.contact_form form,
+div.contact_form table,
+div.contact_form td,
+div.contact_form th    { margin: 0px; padding: 0px; vertical-align: top; text-align: left; }
+
+div.contact_form table { border-collapse: collapse; }
+div.contact_form th    { padding: 0px 10px 3px 0px; }
+div.contact_form td    { padding: 0px  0px 3px 0px; }
+
+div.contact_form img   { margin-left: 5px; }
+
+div.contact_form em
+{
+  text-decoration: none;
+  font-style:  normal;
+  font-weight: 900;
+  color: #004080;
+}
+
+div.contact_form  em.error, div.contact_form form em { color: #FF0000; }
+div.contact_form div.error { margin-bottom: 15px; }
+
+div.contact_form div.input { float:  left; }
+div.contact_form select    { width: 250px; }

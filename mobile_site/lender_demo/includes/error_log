@@ -1,0 +1,2 @@
+[08-Mar-2013 16:23:30] PHP Fatal error:  Call to undefined function  stripslash() in /home5/thestore/public_html/jasonstorey/mobile_site/lender_demo/includes/content.php on line 274
+[08-Mar-2013 16:24:01] PHP Fatal error:  Call to undefined function  stripslash() in /home5/thestore/public_html/jasonstorey/mobile_site/lender_demo/includes/content.php on line 274

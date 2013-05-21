@@ -1,0 +1,387 @@
+/* Site CSS */
+
+@import url('reset.css');
+
+/**
+ * Globals
+ */
+
+body { background: #85ab5f url('http://ca-harp.org/assets/images/content_bg.png') 0 0 repeat-x; color: #444; margin:0; }
+.wrapper { width: 940px; margin: 0 auto; }
+
+/**
+ * Header
+ */
+
+#page > header { background: #FFF; }
+#page > header .wrapper { position: relative; height: 80px; background: white; }
+#page > header #logo { position: absolute; margin: -15px 0 0; font: 700 32px/163px sans-serif; top: 50%; left: 0; }
+#logo, #logo a { width: 329px; height: 80px; }
+#page > header #logo a { display: block; background: url(images/logo_preet.png) no-repeat; text-indent: -9999em; color: #444; text-decoration: none; }
+#page > header .callout { text-align: right; font: 14px/1em sans-serif;}
+#page > header .callout strong { color: #B42020; }
+
+/**
+ * Content
+ */
+
+#content {
+}
+#content .wrapper {
+	background: #FFF; padding: 10px 0; width: 940px;
+
+	border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+}
+.main { float: right; width: 520px; }
+.aside { float: left; width: 380px; }
+.full { float: none; clear: both; }
+#content .wrapper > div > section { padding: 15px; }
+#content .wrapper > div > section.page > header .title { margin: 0 0 0.5em; border-bottom: 1px solid #CCC; padding-bottom: 0.5em; }
+
+section.seenon header .title { text-align: center; margin-top: 0; }
+
+/* Quote Form */
+section.quoteform > header .title { font: 700 24px/1em sans-serif; margin: 0; }
+section.quoteform > header .title strong { color: #000; }
+section.quoteform > header { margin: 0 0 0px; padding: 0 0 0px;}
+section.quoteform .slide.active { display: block; }
+section.quoteform .slide { display: none; padding-bottom: 30px; border-bottom: 1px solid #DDD; }
+section.quoteform .slide header { float: right; width: 520px; }
+section.quoteform .slide header .title { font: 24px/1em sans-serif; margin: 0; color: #222; }
+section.quoteform .slide header p { margin: 12px 0 0; font: 13px/1em sans-serif; }
+section.quoteform .slide fieldset { float: right; width: 520px; padding: 0; border: none; }
+
+section.quoteform .breadcrumbs {
+	clear: both; overflow: hidden; border-top: 1px solid #E6E6E6; border-bottom: 1px solid #E6E6E6; border-left: 1px solid #E6E6E6; margin: 0 0 20px;
+
+	border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-o-border-radius: 4px;
+		-ms-border-radius: 4px;
+}
+section.quoteform .breadcrumbs .step { float: left; font: 13px/2em sans-serif; width: 302px; text-align: center; color: #444; border-right: 1px solid #E6E6E6; text-shadow: 0px 1px 0px #FFF; }
+section.quoteform .breadcrumbs .step.active {
+	font-weight: bold; color: #000;
+
+	background: #ffffff; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 100%); /* IE10+ */
+		background: linear-gradient(top,  #ffffff 0%,#f6f6f6 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+	
+	box-shadow: inset -1px 0px 1px #FFF;
+		-webkit-box-shadow: inset -1px 0px 1px #FFF;
+		-moz-box-shadow: inset -1px 0px 1px #FFF;
+		-o-box-shadow: inset -1px 0px 1px #FFF;
+		-ms-box-shadow: inset -1px 0px 1px #FFF;
+}
+
+section.quoteform .slide .callout { float: left; width: 330px; padding: 10px; border: 1px solid #E3E3E3; background: #F6F6F6; }
+section.quoteform .slide .callout h3 { margin: 0 0 0.5em; font: 700 18px/1.25em sans-serif; }
+
+section.quoteform .slide .callout ul { padding: 0 0 0 0.25em; font: 14px/19px sans-serif; list-style: none; }
+section.quoteform .slide .callout ul li { margin: 0 0 0.25em; padding-left: 24px; background: url(images/list_arrow.png) 0 6px no-repeat; }
+
+section.quoteform .slide .callout ul.nopadd { padding: 0; }
+section.quoteform .slide .callout ul.nopadd li { padding: 0; background: none; }
+
+section.quoteform .slide .callout ul.status { margin-top: 0; font: 16px/1.5em sans-serif; }
+section.quoteform .slide .callout ul.status .progress { color: red; }
+section.quoteform .slide .callout ul.status .good { color: green; }
+
+/* Form */
+section.quoteform fieldset .row { margin: 0; padding: 1em 0; font: 14px/1em sans-serif; }
+section.quoteform fieldset .row label { font-weight: bold; display: block; clear: both; margin: 0 0 0.5em; }
+section.quoteform fieldset .row em.message { font: italic 13px/1.75em sans-serif; color: #888; margin-left: 0.25em; }
+section.quoteform fieldset .row input {
+	border: 1px solid #CCC; padding: 0.35em; font: 13px/1em sans-serif;
+
+	box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+		-webkit-box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+		-moz-box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+		-o-box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+		-ms-box-shadow: inset 1px 2px 2px rgba(0,0,0,0.1);
+}
+section.quoteform fieldset .row input.email { width: 323px; }
+section.quoteform fieldset .row input.error { border-color: red; color: red; background: #ffeceb; }
+section.quoteform fieldset .row div.error { color: red; padding: 0.5em 0 0; font: 400 13px/1em sans-serif; }
+section.quoteform fieldset .row input:focus { border-color: #888; }
+
+section.quoteform fieldset .row .column { position: relative; float: left; margin: 0 20px 0 0; }
+section.quoteform fieldset .row .column.last { margin: 0; }
+
+form button {
+	padding: 0.75em 1.5em;
+	margin: 0 0.5em 0 0;
+	font: 700 14px/1em sans-serif;
+	color: #FFF;
+	border: 1px solid #888;
+	background: #AAA;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.25);
+
+	border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		-ms-border-radius: 6px;
+	
+	box-shadow: inset 0px 1px 1px rgba(255,255,255,0.25);
+		-webkit-box-shadow: inset 0px 1px 1px rgba(255,255,255,0.25);
+		-moz-box-shadow: inset 0px 1px 1px rgba(255,255,255,0.25);
+		-o-box-shadow: inset 0px 1px 1px rgba(255,255,255,0.25);
+		-ms-box-shadow: inset 0px 1px 1px rgba(255,255,255,0.25);
+}
+form button.continue {
+	border-color: rgb(198,89,0);
+	background: rgb(255,116,0); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgb(255,116,0) 0%, rgb(198,89,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,116,0)), color-stop(100%,rgb(198,89,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgb(255,116,0) 0%,rgb(198,89,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgb(255,116,0) 0%,rgb(198,89,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgb(255,116,0) 0%,rgb(198,89,0) 100%); /* IE10+ */
+		background: linear-gradient(top,  rgb(255,116,0) 0%,rgb(198,89,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7400', endColorstr='#c65900',GradientType=0 ); /* IE6-9 */
+}
+	form button.continue:hover {
+		border-color: rgb(230,104,0);
+		background: rgb(255,130,27); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgb(255,130,27) 0%, rgb(230,104,0) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,130,27)), color-stop(100%,rgb(230,104,0))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgb(255,130,27) 0%,rgb(230,104,0) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgb(255,130,27) 0%,rgb(230,104,0) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgb(255,130,27) 0%,rgb(230,104,0) 100%); /* IE10+ */
+			background: linear-gradient(top,  rgb(255,130,27) 0%,rgb(230,104,0) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff821b', endColorstr='#e66800',GradientType=0 ); /* IE6-9 */
+	}
+form button.submit {
+	border-color: #299a0b;
+	background: #39c90e; /* Old browsers */
+		background: -moz-linear-gradient(top,  #39c90e 0%, #299a0b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#39c90e), color-stop(100%,#299a0b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #39c90e 0%,#299a0b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #39c90e 0%,#299a0b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #39c90e 0%,#299a0b 100%); /* IE10+ */
+		background: linear-gradient(top,  #39c90e 0%,#299a0b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39c90e', endColorstr='#299a0b',GradientType=0 ); /* IE6-9 */
+}
+	form button.submit:hover {
+		border-color: rgb(50,185,13);
+		background: rgb(66,230,16); /* Old browsers */
+			background: -moz-linear-gradient(top, rgb(66,230,16) 0%, rgb(50,185,13) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(66,230,16)), color-stop(100%,rgb(50,185,13))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, rgb(66,230,16) 0%,rgb(50,185,13) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, rgb(66,230,16) 0%,rgb(50,185,13) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, rgb(66,230,16) 0%,rgb(50,185,13) 100%); /* IE10+ */
+			background: linear-gradient(top, rgb(66,230,16) 0%,rgb(50,185,13) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42e610', endColorstr='#32b90d',GradientType=0 ); /* IE6-9 */
+	}
+
+/* Text Copy */
+.full.copy section.content {
+	float: left;
+	width: 400px;
+}
+.full.copy figure {
+	float: right;
+	width: 480px;
+	padding: 15px;
+}
+
+/* Testimonials */
+.testimonials > header .title { margin-top: 0; }
+.testimonials .items {
+	background: #F6F6F6;
+	border: 1px solid #DDD;
+	height: 25px;
+	padding: 15px;
+	position: relative;
+}
+.testimonials .item {
+	position: absolute;
+	top: 50%;
+	margin-top: -32px;
+	width: 120px;
+	padding-left: 80px;
+	height: 64px;
+}
+.testimonials .item.first {
+	left: 20px;
+}
+.testimonials .item.last {
+	right: 20px;
+}
+.testimonials .item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.testimonials .item p {
+	margin: 0;
+	padding: 0;
+	font: italic 13px/1.35em Georgia, serif;
+	color: #444;
+}
+
+/**
+ * Footer
+ */
+
+#page > footer { border-top: 1px solid #111; background: #222; padding: 15px 0; }
+#page > footer p { color: #AAA; font: 13px/1.5em sans-serif; margin: 0; text-shadow: 0px 1px 0px rgba(0,0,0,0.25); }
+#page > footer a { color: #CCC; }
+	#page > footer a:hover { color: #FFF; }
+#page > footer .copyright { float: right; width: 400px; text-align: right; }
+#page > footer .privacy { float: left; width: 500px; }
+#page > footer .terms { color: #666; clear: both; text-align: center; font-size: 12px; padding: 2em 0 0; }
+
+/**
+ * Clearfix
+ */
+
+.clearfix:before, .clearfix:after, .wrapper:before, .wrapper:after, form .row:before, form .row:after { content: ""; display: table; } .clearfix:after, .wrapper:after, form .row:after { clear: both; } .clearfix, .wrapper, form .row { *zoom: 1; }
+
+
+/**
+ * Content Formatting
+ * ==================
+ * Sensible formatting for formatted content.
+ * gist: http://gist.github.com/1150500
+ */
+
+/* Setting a default font */
+.formatted { font: 13px/1.5em sans-serif; color: #444; }
+
+.formatted p { padding: 0.25em 0 0.5em; color: #444; }
+.formatted p:first-of-type { padding-top: 0; }
+.formatted p:last-of-type { padding-bottom: 0; }
+
+.formatted strong, .formatted b { font-weight: bold; }
+.formatted em, .formatted i { font-style: italic; }
+.formatted code { font-family: monospace; }
+
+.formatted ul, .formatted ol { padding: 0.5em 0 0.5em 2em; margin-left: 1em; }
+.formatted ul { list-style: disc; }
+.formatted ol { list-style: decimal; }
+.formatted li { padding: 0; color: #444; line-height: 2em; }
+
+.formatted blockquote { padding: 0.5em; margin: 0.5em 0; border: 1px solid #DDD; }
+
+/* Some logic is needed for making sure we don't have double-margins. */
+.formatted p:last-of-type + ul, .formatted p:last-of-type + ol { padding-top: 1em; }
+.formatted ul + p:first-of-type, .formatted ol + p:first-of-type { padding-top: 0.5em; }
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design - changes below (Pyramid Labs)*/
+/* Responsive Design*/
+/* Responsive Design*/
+/* Responsive Design*/
+/* Responsive Design*/
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+section.quoteform > header .title {font-size: 19px;}
+}
+
+@media (max-width: 767px) {
+ #page > header .wrapper {height:auto;}
+ #page > header #logo {position: static; margin:0; padding-top:10px;
+ 	margin:0 auto;}
+ #page > header .callout {margin:0; text-align: center; padding:15px !important;}
+ section.quoteform > header .title {font-size: 14px;}
+}
+
+@media (max-width: 480px) {
+#page > header #logo {width: 100%;}
+#page > header #logo a{width: 100%; background-size: contain;}
+#page > header .callout {margin:0; text-align: center; padding:10px !important;}
+section.quoteform fieldset .row input.email {width: 190px;}
+#page > header .callout strong {font-size: 16px !important;}
+}
+
+@media (max-width: 979px) {
+ .wrapper{
+  width: 95% !important;
+ }
+ #content .wrapper {padding:0;}
+
+ section.quoteform .breadcrumbs .step {
+ 	float:none; width:auto; 
+ 
+ }
+ section.quoteform .breadcrumbs .step + .step {	
+ 	border-top: 1px solid #E6E6E6;}
+ #page > footer .privacy{
+  text-align: center;
+  width: auto;
+  float: none;
+ }
+ #page > footer .copyright {
+     float: none;
+     text-align: center;
+     width: auto;
+ }
+ .cta{
+  text-align: center;
+ }
+ .cta > img{
+  left: 0 !important;
+  position: static !important;
+  width: 100%;
+  max-width: 520px; 
+ }
+ .main{
+  width: 90%;
+  float: none;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+ .full{
+  width: 90%;
+  float: none;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+ .details fieldset {width:100% !important;}
+ section.quoteform .slide .callout.formatted {width:auto;}
+ 
+ #content .wrapper > div > section{
+  padding: 0;
+ }
+ #content .wrapper > div > section.page{
+  padding: 0 15px;
+ }
+ .aside{
+  float: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+ }
+ section.quoteform .slide .callout{
+  float: none;
+     margin: 0 auto;
+     width: 300px;
+ }
+
+ section.quoteform .slide header {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom:15px;
+}
+}

@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'khmer_sangam_mnregular';
+    src: url('khmer_sangam_mn-webfont.eot');
+    src: url('khmer_sangam_mn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('khmer_sangam_mn-webfont.woff') format('woff'),
+         url('khmer_sangam_mn-webfont.ttf') format('truetype'),
+         url('khmer_sangam_mn-webfont.svg#khmer_sangam_mnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin:0;
+	padding:0;
+	background-image:url(bg.jpg);
+	
+	background-repeat:repeat;
+}
+hr {
+	margin:0;
+	margin-bottom: 15px;
+	padding:0;
+	color: #d6474f;
+}
+#recent h2 {
+	color: #666;
+	font-family: "Monotype Corsiva";
+	font-size:30px;
+	margin:0;
+}
+#recent {
+	
+	width: 900px;
+	margin-top: 100px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	
+}
+#recent a {
+	
+	margin-right: 36px;
+}
+#recent .last {
+	margin: 0;
+}
+#header {
+	width: 960px;
+	height: 175px;
+	margin: 0 auto;
+	background-image:url(headerbg.png);
+	
+}
+/*.nav {
+	height: 32px;
+	width: 500px;
+	
+	
+} */
+#header ul {
+	margin-top: 133px;
+	
+	padding:0;
+	list-style-type:none;
+	float: right;
+	 
+	
+	
+}
+#header ul li {
+	
+	line-height:32px;
+	float: left;
+	width: 80px;
+	text-align:center;
+	margin-right: 20px;
+	
+
+}
+#header ul a {
+	text-decoration:none;
+	display:block;
+	color:#d6474f;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+#header ul li:hover {
+	background-color:#d6474f;
+}
+#header ul a:hover {
+	color:white;
+}
+#header ul li .selected {
+	color: white;
+	background-color:#d6474f;
+}
+
+.logo {
+	float: left;
+}
+.clear {
+	clear:both;
+}
+#banner {
+	width: 960px;
+	height: 373px;
+	margin:0 auto;
+	position: relative;
+	top: -45px;
+	z-index:-999;
+	background-image:url(banner_shadow.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	
+	
+	
+}
+#slider {
+
+}
+#content {
+	width: 940px;
+	margin: 0 auto;
+	margin-top:-40px;
+	background-color: #fff;
+	margin-bottom: 0px;
+	padding: 10px;
+	height: auto;
+	
+}
+#content p {
+	margin-top: 0px;
+	margin-bottom:0px;
+	font-family:Helvetica, sans-serif;
+	font-size:18px;
+	color:#666;
+	text-align:justify;
+}
+.team {
+	background-image:url(teambg.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+td p {
+	text-align:center;
+}
+#left {
+	width:650px;
+	float:left;
+}
+#right {
+	width: 272px;
+	float:right;
+	background-image:url(teambg.jpg);
+	height: 361px;
+	margin-top:19px;
+	margin-right: 4px;
+}
+.parents {
+	font-size: 24px;
+	color:#d6474f;
+}
+#footer {
+	margin-top: 0px;
+	width: 960px;
+	height: 144px;
+	margin: 0 auto;
+	background-image:url(footer.jpg);
+	
+	
+	
+}
+.search {
+	height: 30px;
+	width: 320px;
+	margin-left: 10px;
+	line-height:30px
+}
+.search input[type="text"] {
+	height: 20px;
+}
+.search input[type="image"] {
+ 	height: 26px;
+	vertical-align:bottom;
+}
+
+
+
+#copy {
+	width: 33%;
+	color: white;
+	float:left;
+	font-size:14px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+#links {
+	width: 30%;
+	color: white;
+	float:right;
+	font-size:14px;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align:right;
+}
+#links a {
+	color: white;
+	text-decoration:none;
+}
+#links a:hover {
+	color:#CCC;
+	text-decoration:underline;
+}
+
+.phone {
+	font-family: Helvetica;
+	color: #666;
+	font-size:20px;
+	margin-bottom: 5px;
+}
+#social {
+	width: 140px;
+	position:absolute;
+	margin-left:810px;
+	margin-top:10px;
+	
+}
+#social a {
+	margin-right: 6px;
+}
+#js {
+	width: 200px;
+	text-align:center;
+	color: white;
+float: left;
+	font-size:13px;
+	margin-top:125px;
+	margin-right:auto;
+	margin-left:auto;
+	
+} 
+/* CSS for jQuery Orbit Plugin 1.4.0 Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php
+*/
+/* Container ---------------------- */
+div.orbit-wrapper { width: 1px; height: 1px; position: relative; }
+
+div.orbit { width: 1px; height: 1px; position: relative; overflow: hidden; margin-bottom: 17px; }
+
+div.orbit.with-bullets { margin-bottom: 40px; }
+
+div.orbit .orbit-slide { max-width: 100%; position: absolute; top: 0; left: 0; }
+
+div.orbit a.orbit-slide { border: none; line-height: 0; display: none; }
+
+div.orbit div.orbit-slide { width: 100%; height: 100%; }
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+/* Timer ---------------------- */
+div.orbit-wrapper div.timer { width: 40px; height: 40px; overflow: hidden; position: absolute; top: 10px; right: 10px; opacity: .6; cursor: pointer; z-index: 31; }
+
+div.orbit-wrapper span.rotator { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: -20px; background: url('../images/foundation/orbit/rotator-black.png') no-repeat; z-index: 3; }
+
+div.orbit-wrapper span.mask { display: block; width: 20px; height: 40px; position: absolute; top: 0; right: 0; z-index: 2; overflow: hidden; }
+
+div.orbit-wrapper span.rotator.move { left: 0; }
+
+div.orbit-wrapper span.mask.move { width: 40px; left: 0; background: url('../images/foundation/orbit/timer-black.png') repeat 0 0; }
+
+div.orbit-wrapper span.pause { display: block; width: 40px; height: 40px; position: absolute; top: 0; left: 0; background: url('../images/foundation/orbit/pause-black.png') no-repeat; z-index: 4; opacity: 0; }
+
+div.orbit-wrapper span.pause.active { background: url('../images/foundation/orbit/pause-black.png') no-repeat 0 -40px; }
+
+div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active { opacity: 1; }
+
+/* Captions ---------------------- */
+.orbit-caption { display: none; font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; }
+
+.orbit-wrapper .orbit-caption { background: #000; background: rgba(0, 0, 0, 0.6); z-index: 30; color: #fff; text-align: center; padding: 7px 0; font-size: 13px; font-size: 1.3rem; position: absolute; right: 0; bottom: 0; width: 100%; }
+
+/* Directional Nav ---------------------- */
+div.orbit-wrapper div.slider-nav { display: block; }
+
+div.orbit-wrapper div.slider-nav span { width: 39px; height: 50px; text-indent: -9999px; position: absolute; z-index: 30; top: 50%; margin-top: -25px; cursor: pointer; }
+
+div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow.png'); background-size: 100%; right: 0; }
+
+div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow.png'); background-size: 100%; left: 0; }
+
+.lt-ie9 div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
+.lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }
+
+/* Bullet Nav ---------------------- */
+ul.orbit-bullets { position: absolute; z-index: 30; list-style: none; bottom: -40px; left: 50%; margin-left: -50px; padding: 0; }
+
+ul.orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999; text-indent: -9999px; background: url('../images/foundation/orbit/bullets.jpg') no-repeat 4px 0; width: 13px; height: 12px; overflow: hidden; }
+
+ul.orbit-bullets li.active { color: #222; background-position: -8px 0; }
+
+ul.orbit-bullets li.has-thumb { background: none; width: 100px; height: 75px; }
+
+ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px solid #000; }
+
+/* Fluid Layout ---------------------- */
+div.orbit img.fluid-placeholder { visibility: hidden; position: static; display: block; width: 100%; }
+
+div.orbit, div.orbit-wrapper { width: 100% !important; }
+
+ul.orbit-bullets { position: absolute; z-index: 30; list-style: none; bottom: -50px; left: 50%; margin-left: -50px; padding: 0; }
+
+ul.orbit-bullets li { float: left; margin-left: 5px; cursor: pointer; color: #999; text-indent: -9999px; background: url('../images/foundation/orbit/bullets.jpg') no-repeat 4px 0; width: 13px; height: 12px; overflow: hidden; }
+
+ul.orbit-bullets li.has-thumb { background: none; width: 100px; height: 75px; }
+
+ul.orbit-bullets li.active { color: #222; background-position: -8px 0; }
+
+ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px solid #000; }
+
+/* Correct timer in IE */
+.lt-ie9 .timer { display: none !important; }
+
+.lt-ie9 div.caption { background: transparent; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000); zoom: 1; }

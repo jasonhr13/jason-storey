@@ -1,0 +1,23 @@
+<TextFlow color="#000000" columnCount="1`" columnWidth="100" fontSize="10" lineBreak="toFit" paddingBottom="0" paddingLeft="0" paddingRight="0" paddingTop="0" paragraphSpaceAfter="10" paragraphSpaceBefore="0" verticalAlign="top" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008">
+
+
+
+<p fontSize="12" fontWeight="bold"><span>Coffees</span></p>
+
+<p><span>Blueberry Streusel, Other, House, Dark, Decaf</span></p>
+
+<p fontSize="12" fontWeight="bold"><span>Soups</span></p>
+
+<p><span>Vegetarian Vegetable, Tomato Basil</span></p>
+
+<p fontSize="12" fontWeight="bold"><span>Teas</span></p>
+
+<p><span>Plum Mango, Unsweet, Sweet, Decaf</span></p>
+
+<p fontSize="12" fontWeight="bold"><span>Other</span></p>
+
+<p><span>Try one of our new Summer Smoothies</span></p>
+
+
+
+</TextFlow>

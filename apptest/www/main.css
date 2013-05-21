@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	
+	
+	
+	background-color: brown;
+	
+}
+
+#wrapper {
+	
+	
+}
+
+#header {
+	height: 30%;
+	
+	
+	
+}
+
+#main {
+	margin-top: 20px;
+	
+}
+
+.label {
+	color:white;
+	text-align: center;
+	
+}
+
+.specials {
+	color:white;
+}

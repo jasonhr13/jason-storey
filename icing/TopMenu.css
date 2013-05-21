@@ -1,0 +1,74 @@
+/* TopMenu.css
+// Example top menu using bw-menu.js
+//
+// by Bill Weinman  http://bw.org/
+// Copyright (c) 2009 BHG LLC
+//
+// Version 1.0
+// Created for Dynamic Menus course at lynda.com
+*/
+
+
+
+/* ===== menu ===== */
+
+div#menuTop {
+    position: relative;
+	
+}
+
+div#menuTop ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div#menuTop li {
+    display: block;
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #cc9;
+    font-size: 16px;
+    width: 110px;
+    height: 30px;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+
+div#menuTop a {
+    display: block;
+    margin: 0;
+    background-color: #cc9;
+    margin: 0;
+    padding: 5px 3px;
+    text-decoration: none;
+    color: #330;
+}
+
+div#menuTop a:hover {
+    background-color: #ffc;
+}
+
+ul.menuHoriz li {
+    float: left;
+    margin-right: 3px;
+    border: solid 2px #de56e7;
+}
+
+ul.menuVert li {
+    border-top: none;
+    border-bottom: solid 1px #993;
+    border-left: solid 1px #993;
+    border-right: solid 1px #993;
+}
+
+ul.menuVert {
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+}
+
+ul#menuSubOne { left: 0 }
+ul#menuSubTwo { left: 115px }
+ul#menuSubThree { left: 235px }
+ul#menuSubFour { left: 345px }
+

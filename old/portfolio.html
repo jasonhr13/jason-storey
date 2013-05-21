@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Jason Storey | My Work</title>
+
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script src="jquery-1.3.1.min.js"></script>
+<script type="text/javascript">
+
+
+$(document).ready(function(){	
+	$(document).ready(function () {
+		$('#wrapper').fadeIn(2000);
+      });
+});
+
+</script>
+
+
+<script>
+$(document).ready(function() {
+
+	//move the image in pixel
+	var move = -200;
+	
+	//zoom percentage, 1.2 =120%
+	var zoom = 1;
+
+	//On mouse over those thumbnail
+	$('.zitem').hover(function() {
+		
+		//Set the width and height according to the zoom percentage
+		width = $('.zitem').width() * zoom;
+		height = $('.zitem').height() * zoom;
+		
+		//Move and zoom the image
+		$(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
+		
+		//Display the caption
+		$(this).find('div.caption').stop(false,true).fadeIn(200);
+	},
+	function() {
+		//Reset the image
+		$(this).find('img').stop(false,true).animate({'width':$('.zitem').width(), 'height':$('.zitem').height(), 'top':'0', 'left':'0'}, {duration:100});	
+
+		//Hide the caption
+		$(this).find('div.caption').stop(false,true).fadeOut(200);
+	});
+
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style>
+body {
+	font-family:arial;	
+}
+
+.zitem {
+	width:200px;
+	height:200px;	
+	border:4px solid #222;	
+	margin:5px 15px 5px 0;
+	
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	
+	/* display div in line */
+	float:left;
+}
+
+.zitem .caption {
+	width:200px;
+	height:203px;
+	background:#000;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;	
+	
+	/* fix it at the bottom */
+	position:absolute;
+	bottom:-1px; /* fix IE issue */
+	left:0;
+
+	/* hide it by default */
+	display:none;
+
+	/* opacity setting */
+	filter:alpha(opacity=70);    /* ie  */
+	-moz-opacity:0.7;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.7;    /* for really really old safari */  
+	opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+
+}
+
+.zitem .caption a {
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;	
+	
+	/* add spacing and make the whole row clickable*/
+	padding:10px;
+	display:block;
+}
+
+.zitem img {
+	border:0;
+	
+	/* allow javascript moves the img position*/
+	position:absolute;
+}
+
+.clear {
+	clear:both;	
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper" style="display:none;">
+
+	<div id="header">
+		<div class="logo"></div>
+        
+        <div id="nav">
+        <ul class="nav">
+        <li><a href="who.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('who_nav','','who_nav_over.png',0)"><img src="who_nav_up.png" name="who_nav" width="160" height="37" border="0" id="who_nav" /></a></li>
+        <li><a href="portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('portfolio_nav','','portfolio_nav_over.png',1)"><img src="portfolio_nav_up.png" name="portfolio_nav" width="160" height="37" border="0" id="portfolio_nav" /></a></li>
+        <li><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact_nav','','contact_nav_over.png',1)"><img src="contact_nav_up.png" name="contact_nav" width="160" height="37" border="0" id="contact_nav" /></a></li>
+        </ul>
+        </div>
+        
+		</div>
+        
+  <div id="left">
+        <h1 style="text-align:left"><img src="portfolio_text.png" width="210" height="55" /></h1>
+        </div>
+        
+        
+	<div id="content">
+    	
+    <div class="zitem">
+	<a href="http://www.smithandcompanypc.com" target="_blank"><img src="1.gif" alt="Smith & Company P.C." title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.smithandcompanypc.com" target="_blank">Smith and Company P.C.</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.gingersnapscafe.com" target="_blank"><img src="2.gif" alt="Gingersnaps" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.gingersnapscafe.com" target="_blank">Gingersnaps Coffeehouse and Cafe</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.wvfca.com" target="_blank"><img src="3.gif" alt="North Vigo" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.wvfca.com" target="_blank">Wabash Valley Football Coashes Association</a></p>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div class="zitem">
+	<a href="http://www.terrehauteumtemple.org" target="_blank"><img src="4.gif" alt="THUMT" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.terrehauteumtemple.org" target="_blank">Terre Haute United Methodist Temple</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://vigoschools.org/~thnvhs" target="_blank"><img src="5.gif" alt="North Vigo" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://vigoschools.org/~thnvhs" target="_blank">Terre Haute North Vigo High School</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.icingonthecake-bakery.com/wordpress" target="_blank"><img src="6.gif" alt="Icing on the Cake" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.icingonthecake-bakery.com/wordpress" target="_blank">Icing On The Cake Bakery</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.jason-storey.com/gsnaps_mockup.jpg" target="_blank"><img src="7.gif" alt="Gingersnaps Mock Up" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/gsnaps_mockup.jpg" target="_blank">Gingersnaps Cafe Mockup</a></p>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+      
+	 
+</div>
+    
+    <div id="footer">
+     <hr />
+     <div class="links">
+    <table style="width:100%">
+     <tr>
+     <td>&copy; Jason Storey - 2009 </td>
+     <td style="text-align:right"><a href="https://twitter.com/#!/thestoreybook" target="_blank"><img src="tweet.png" width="50" height="50" /></a></td>
+     </tr></table>
+     </div>
+    	</div>
+
+</div>
+
+
+
+</body>
+</html>

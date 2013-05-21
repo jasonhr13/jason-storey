@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jason Storey - Front-End Developer - Web Guru</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">    
+    <link href="css/exo-font.css" rel="stylesheet">
+    <link href="css/journal-font.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">	
+	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Script files -->
+	<script src="js/jquery.js"></script>
+    <script src="js/jquery.easing-1.3.pack.js"></script>
+    <script src="js/jquery.flexslider.js"></script> 
+	<script src="js/jquery.fancybox-1.3.4.pack.js"></script> 
+    <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="js/jquery.gmap.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/jquery.form.js"></script>		
+    <script src="js/custom.js"></script>
+	<script src="js/bootstrap-scrollspy.js"></script>
+    
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#map").gMap({ controls: false,
+		                  scrollwheel: false,
+                          draggable: false,
+		                  markers: [{ latitude: 52.218545549866356,
+		                              longitude: 21.005859375,
+		                              icon: { image: "img/pin.png",
+		                                      iconsize: [32, 47],
+		                                      iconanchor: [32,47],
+		                                      infowindowanchor: [12, 0] } }
+		                            ],
+		                  icon: { image: "img/pin.png", 
+		                          iconsize: [26, 46],
+		                          iconanchor: [12, 46],
+		                          infowindowanchor: [12, 0] },
+		                  latitude: 52.218545549866356,
+		                  longitude: 21.005859375,
+		                  zoom: 13 });
+	});
+	</script>
+    
+  </head>
+
+
+
+  <body data-spy="scroll" data-target=".navbar" >
+  
+    <!-- NAVBAR ############################################### -->
+    <div class="navbar navbar-fixed-top" id="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+         
+         <a href="#home" class="brand hidden-phone" id="brand" ><img src="img/logo.png" alt=""></a>
+         
+          
+            <ul class="nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+             
+              <li><a href="#work1">Works</a></li>
+              
+              <li><a href="#form">Contact</a></li>
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+    <!-- /NAVBAR ############################################### -->
+
+
+
+
+    <!-- HOME ############################################### -->
+    
+    <div class="home" id="home">
+		<div class="container">
+    	
+			<div class="row ">
+      			<div class="span12 intro" id="intro">
+      				<img src="img/logo_mobile.png" class="visible-phone" id="logo" alt="" width="223" height="74" >
+					
+      				<h1 class="hidden-phone">I'm Jason Storey</h1>
+      				<p class="hidden-phone">But more importantly, I'm a Front-End Developer</p>
+      			</div>
+    		</div> 
+    
+    		<div class="row hidden-phone">
+      			<div class="span12 more" id="more">
+            	<p><a href="#about">more</a></p>
+      			</div>
+    		</div> 
+       
+		</div> <!-- /container -->
+		
+		
+		<div class="visible-phone" ><p>></p></div>
+        <!-- flexslider -->
+    	<div class="flexslider hidden-phone" id="intro-slider">
+		<div ></div>
+    		<ul class="slides"  >
+    			
+    		</ul>
+    	</div> <!-- /flexslider -->
+ 
+    </div> <!-- /home -->
+    
+    <!-- /HOME ############################################### -->
+
+
+
+ 
+    <!-- ABOUT ############################################### --> 
+    <div id="about">
+    
+    	<div class="container">
+    		
+			<div class="row head1">
+      			<div class="span12" >
+      				<h2>About Me</h2>
+      			</div>
+    		</div> 
+    
+    		<div class="row" id="starlight">
+      			<div class="span3" >
+      				
+                    <div class="span3">
+      					<img src="img/team1.jpg" alt="">
+      					</div>
+      				<!-- /abouttext -->
+      			</div>
+
+    
+        		<div class="span8 offset1" >
+        			
+        			<div class="row" id="approach">
+            			<p>
+							My name is Jason Storey and I am a Front-End Developer living in Sunny Orange County, California. Front-End Development is not my job; it is my passion. Whether I'm just styling up a simple form or taking a PSD and coding an entire site, I love the web and everything that comes with it. Learning is a neccesity for me. Being completely self taught I always had more to learn, and I never wanted to stop. Even to this day you can usually find me spending free time researching new techniques or learning new frameworks. </p>
+                            
+                            <p>
+                            I try to increase my skills in every area that I work in but recently I have been really getting into mobile/responsive development. Using jQuery Mobile and Zurb's Foundation 4, I have built mobile sites for mutiple clients in the Mortgage Industry as well as the site you are on right now; mine.
+      					  </p>   
+                          <p>
+                          My knowledge of HTML5/CSS3, Javascript, and jQuery Mobile are the cornerstones of my abilites. Add to this my continuing self education of PHP/MySQL and Javascript libraries like Node.js, and Backbone.js and you can see that I am always busy trying to learn as much of what makes the web work as possible.
+                          </p>
+        			</div><!-- /approach -->
+
+        		</div>
+    
+    
+			</div><!-- /starlight-row  -->
+        
+
+			
+			
+      				
+
+    	</div> <!-- /container -->
+    
+    </div> <!-- /about -->   
+
+    <!-- /ABOUT ############################################### -->      
+
+
+
+
+    <!-- SERVICES ############################################### -->
+    
+    
+
+    <!-- /SERVICES ############################################### --> 
+     
+         
+                 
+ 
+    <!-- WORK 01 ############################################### -->
+    
+    <div id="work1">
+    
+    	<div class="container">
+    		<div class="row head1">
+      			<div class="span12">
+      				<h2>Works</h2>
+      			</div>
+    		</div> 
+		
+   			<div class="row">				 
+     				<div class="span4" >
+     				<h3>Inga's Blooms</h3>
+     				<h4>Logo Design, Site Design & Development</h4>
+     				<p>Inga's Blooms is a recent addition to my portfolio. My goal was to create an appealing website to look at with a design that didn't take away from the wonderful flower arrangements Inga creates. This design uses a simple row setup with some nice typography, grasping the users attention and pulling them right into the images of the flowers.</p>
+      				<a class="btn btn-red" href="http://www.ingasblooms.com" target="_blank">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+                    <div class="span8 visible-phone hidden-tablet mobile-img" ><img src="img/work01.png" alt=""></div>
+					<div class="span8 flexslider hidden-phone " id="work1-slider">
+					<ul class="slides">
+	    				<li><img src="img/work01.png" alt=""></li>
+						
+					</ul>	
+				</div>
+   			</div> 		
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work1 -->  
+
+    <!-- /WORK 01 ############################################### -->
+
+
+
+
+	<!-- WORK 02 ############################################### -->
+    
+    <div id="work2">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4" >
+     				<h3>Terre Haute Web Company</h3>
+     				<h4>Logo Design, Site Design & Development</h4>
+     				<p>Terre Haute Web Company is a start-up company of mine based in Terre Haute, Indiana (my home town). Focusing on web development and SEO for small businesses in the wabash valley without the huge price tag of other design firms a short distance away in Indianapolis. Although I work and live in Orange County, California; with the help of my colleagues in Indiana we are able to provide exceptional design and development services in an area with fewer options.</p>
+      				<a class="btn btn-red" href="http://www.thwebco.com/home" target="_blank">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img" ><img src="img/work02.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone " id="work2-slider">
+					<ul class="slides">
+	    				<li><img src="img/work02.png" alt=""></li>
+                        <li><img src="img/work02g.png" alt=""></li>
+						
+					</ul>	
+				</div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work2 -->  
+
+    <!-- /WORK 02 ############################################### -->
+
+
+
+
+	<!-- WORK 03 ############################################### -->
+   
+     <div id="work3">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4" >
+     				<h3>The Systems House</h3>
+     				<h4>Coded</h4>
+     				<p>This site was actually designed by a friend of mine. It is a redesign of an existing site for a small computer systems center in Terre Haute, Indiana. No having design the site really made it nice for me because I could focus only on the coding of the PSD.</p>
+      				<a class="btn btn-red" href="http://www.thwebco.com/systems" target="_blank">See On-line <i class="icon-globe icon-white"></i></a>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img" ><img src="img/work03.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone " id="work3-slider">
+					<ul class="slides">
+	    				<li><img src="img/work03.png" alt=""></li>
+						<li><img src="img/work03b.png" alt=""></li>
+					</ul>	
+				</div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work3 -->  
+
+	<!-- /WORK 03 ############################################### -->
+
+
+
+
+	<!-- WORK 04 ############################################### -->
+    
+    <div id="work4">
+    
+    	<div class="container">
+		
+   			<div class="row">				 
+     				<div class="span4" >
+     				<h3>Mobile</h3>
+     				<h4>Design & Development for LenderHomePage.com</h4>
+     				<p>I do Front-End Development and Mobile Development for Celesto Technologies/LenderHomePage.com and recently I have been addicted to mobile development. Using jQuery Mobile and Zurb's Foundation 4, I have built a few mobile websites that render correctly on all mobile browsers as well as perform flawlessly. Designed for older devices and newer retina display iPhones. Mobile development is my new passion within web design. I even utilized Adobe's PhoneGap to create native apps for iPhone and Android while still using my HTML/CSS and Javascript skills along with jQuery Mobile.</p>
+                    <p>
+      				<a class="btn btn-red" href="http://m.mortgageauthority.com" target="_blank">Mortgage Authority <i class="icon-globe icon-white"></i></a></p>
+                    <p><a class="btn btn-red" href="http://www.harpapplication.org/mobile" target="_blank">Harp Application <i class="icon-globe icon-white"></i></a></p>
+                    <p><a class="btn btn-red" href="http://mobile.gingersnapscafe.com" target="_blank">Gingersnaps Cafe <i class="icon-globe icon-white"></i></a></p>
+                    <p><a class="btn btn-red" href="http://www.callpreet.com/mobile" target="_blank">Call Preet <i class="icon-globe icon-white"></i></a></p>
+     				</div>
+					<div class="span8 visible-phone hidden-tablet mobile-img" ><img src="img/work04.png" alt=""></div>
+     				<div class="span8 flexslider hidden-phone" id="work4-slider">
+					<ul class="slides">
+	    				<li><img src="img/work04.png" alt=""></li>
+                        <li><img src="img/work04_2.png" alt=""></li>
+					</ul>	
+				</div>
+   			</div>	
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /work4 -->  
+
+	<!-- /WORK 04 ############################################### -->
+
+
+
+
+    <!-- GALLERY ############################################### -->
+   
+     
+    <!-- /Gallery############################################### -->
+
+
+
+
+	<!-- MAP ############################################### -->
+    
+   <!-- /contact -->  
+
+    <!-- /MAP ############################################### -->
+
+
+
+
+	<!-- CONTACT FORM ############################################### -->
+    
+    <div id="form">
+    
+    	<div class="container">
+		 <div class="row head1">
+      			<div class="span12">
+      				<h2>Contact Me</h2>
+      			</div>
+    		</div> 
+   			<div class="row">				 
+     				<div class="span8" >
+     				<h3>Let's keep in touch</h3>
+     				
+     				<p>Feel free to contact me if you're in need of a website design. Or if you just want a little more information about myself and what I do. I look forward to hearing from you!</p>      				
+     				
+		
+     				<form action="js/sendmail.php" method="post" id="contact-form">
+						                   
+						<fieldset>
+						<div class="row"> 
+                        <div class="holder span8"><div class="message"><div class="top"></div><div class="contents"><div id="alert"></div></div><div class="bottom"></div></div></div>
+                        <div class="field span8"><label for="name">Your name (*):</label><input type="text" value="" class="input-text" id="name" name="name" /></div>
+                        <div class="field span8"><label for="email">Your email (*):</label><input type="text" value="" class="input-text" id="email" name="email" /></div>
+                        <div class="field span8"><label for="message">Message (*):</label><textarea  class="input-textarea" id="message" name="message"></textarea></div>
+                        <div class="flied span8"><input type="submit" class="input-submit btn btn-red" value="Submit" /></div></div>
+                    </fieldset>
+                    </form>
+					</div>
+					
+					<div class="span3 offset1" >
+						<h3>Contact info</h3>
+
+	     				<p>
+
+						Phone: (812) 230-6576<br>
+						
+						Email: jasons@thwebco.com<br>
+						Web: www.thwebco.com</p>	
+						
+						
+						
+						<h3 class="hidden-phone">Social stuff</h3>
+						<ul class="list-social hidden-phone">
+			            	<li class="facebook"><a href="http://www.facebook.com/jasonhr13" target="_blank"></a></li>
+			                <li class="twitter"><a href="http://www.twitter.com/thestoreybook" target="_blank"></a></li>
+			               
+			            </ul>
+						
+					</div>
+					
+					
+   			</div> 		
+		
+             
+    	</div> <!-- /container -->
+    
+    </div> <!-- /form  -->  
+
+    <!-- /CONTACT FORM  ############################################### -->
+
+
+
+
+	<!-- FOOTER ############################################### -->
+   
+     <div id="footer">
+    
+    	<div class="container">
+        	
+			<div class="row" id="footer_bar">
+            	<div class="span12" >
+            		<p>© 2013 Designed & Developed in California by Jason Storey</p>
+            	</div>
+        	</div> 
+
+      	</div><!-- /container -->
+    </div><!-- /footer -->
+
+    <!-- /Footer ############################################### -->
+
+
+  </body>
+</html>

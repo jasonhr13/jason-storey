@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title>Jason Storey | Web Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="Jason Storey, Web designer, Developer, Student. " />
+		<meta name="keywords" content="Jason, Storey, Jason Storey, web, design, web design, development, freelance" />
+		<meta name="author" content="Jason Storey" />
+		
+		<link rel="stylesheet" type="text/css" href="demo.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+        <script src="jquery-1.3.1.min.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script>
+		$(document).ready(function(){	
+	$(document).ready(function () {
+		$('body').fadeIn(2000);3
+      });
+});
+
+$(document).ready(function() {
+
+	//move the image in pixel
+	var move = -200;
+	
+	//zoom percentage, 1.2 =120%
+	var zoom = 1;
+
+	//On mouse over those thumbnail
+	$('.zitem').hover(function() {
+		
+		//Set the width and height according to the zoom percentage
+		width = $('.zitem').width() * zoom;
+		height = $('.zitem').height() * zoom;
+		
+		//Move and zoom the image
+		$(this).find('img').stop(false,true).animate({'width':width, 'height':height, 'top':move, 'left':move}, {duration:200});
+		
+		//Display the caption
+		$(this).find('div.caption').stop(false,true).fadeIn(200);
+	},
+	function() {
+		//Reset the image
+		$(this).find('img').stop(false,true).animate({'width':$('.zitem').width(), 'height':$('.zitem').height(), 'top':'0', 'left':'0'}, {duration:100});	
+
+		//Hide the caption
+		$(this).find('div.caption').stop(false,true).fadeOut(200);
+	});
+
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+</script>
+	</head>
+	<body style="display:none">
+		<!-- Codrops top bar -->
+		<div class="codrops-top">
+<div class="clr"></div>
+	</div><!--/ Codrops top bar -->
+				
+		<!-- Home -->
+		<div id="home" class="content">
+			<h2>Home</h2>
+			<p>My name is Jason Storey and I am a web developer from Terre Haute Indiana. I have been developing effective web sites for the past 5 years. I am currently studying for a Bachelors degree in Computer Science at the University of Southern Indiana.</p>
+            <p>I am very skilled with Adobe applications such as Photoshop, Illustrator, Dreamweaver, Flash, and InDesign. These skills combined with my skills in HTML/HTML5, CSS, javascript, and actoinscript allow me to create efficient web sites as well as interactive experiences for my clients.</p>
+            <p>When I'm not building web sites I enjoy doing many activities. I enjoy surfing, snowboarding, listening to music, and playing my guitar. Although I am young I am getting a lot out of life and have set goals for myself in the near future.</p>
+            <p>If you want to know my whole story check out the About page! Please head over to my portfolio to see some of the work that I have done. Then if you would like, contact me through the contact page or visit my facebook page.</p>
+        </div>
+		<!-- /Home -->
+		
+		<!-- Portfolio -->
+		<div id="portfolio" class="panel">
+			<div class="content">
+				<h2>Portfolio</h2>
+				<div class="zitem">
+	<a href="http://www.smithandcompanypc.com" target="_blank"><img src="1.gif" alt="Smith & Company P.C." title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.smithandcompanypc.com" target="_blank">Smith and Company P.C.</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.jason-storey.com/stocose/stocose_fish_large.jpg" target="_blank"><img src="stocose_fish.jpg" alt="Stocose Outdoors Logo" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/stocose/stocose_fish_large.jpg" target="_blank">Stocose Outdoors Logo Concept #1</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.jason-storey.com/stocose_large.jpg" target="_blank"><img src="stocose.jpg" alt="Stocose Outdoors Site Mockup #1" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/stocose_large.jpg" target="_blank">Stocose Outdoors Site Mockup #1</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.gingersnapscafe.com" target="_blank"><img src="2.gif" alt="Gingersnaps" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/other/index.html" target="_blank">Gingersnaps Coffeehouse and Cafe</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.wvfca.com" target="_blank"><img src="3.gif" alt="North Vigo" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.wvfca.com" target="_blank">Wabash Valley Football Coashes Association</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="#" target="_blank"><img src="kiwinkidinc_logo.png" alt="Kiwinkidinc Logo Concept" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/Kiwi_logo1.jpg" target="_blank">Kiwinkidinc Media Group Concept Logo</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="#" target="_blank"><img src="SE_logo.jpg" alt="Smock & Etling" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/smock-etling/" target="_blank">Smock and Etling Logo</a></p>
+	</div>
+</div>
+
+
+
+<div class="zitem">
+	<a href="http://www.terrehauteumtemple.org" target="_blank"><img src="4.gif" alt="THUMT" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.terrehauteumtemple.org" target="_blank">Terre Haute United Methodist Temple</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://vigoschools.org/~thnvhs" target="_blank"><img src="5.gif" alt="North Vigo" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://vigoschools.org/~thnvhs" target="_blank">Terre Haute North Vigo High School</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.icingonthecake-bakery.com/wordpress" target="_blank"><img src="6.gif" alt="Icing on the Cake" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.icingonthecake-bakery.com/wordpress" target="_blank">Icing On The Cake Bakery</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="#" target="_blank"><img src="RK_logo.png" alt="Ryan Krahenbuhl Musician Logo Concept" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/RK_logo.png" target="_blank">Musician Logo Concept</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="#" target="_blank"><img src="smock.jpg" alt="Smock & Etling" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/smock-etling/" target="_blank">Smock and Etling</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="#" target="_blank"><img src="MDB_logo.jpg" alt="M.D. Beats Logo Concept" title="" width="400" height="244"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/MDB_logo.png" target="_blank">M.D. Beats DJ logo Concept</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.jason-storey.com/gsnaps_mockup.jpg" target="_blank"><img src="7.gif" alt="Gingersnaps Mock Up" title="" width="200" height="200"/></a>
+	<div class="caption">
+		<p><a href="http://www.jason-storey.com/gsnaps_mockup.jpg" target="_blank">Gingersnaps Cafe website Mockup</a></p>
+	</div>
+</div>
+
+<div class="zitem">
+	<a href="http://www.hemorrhoidsaregone.com/site" target="_blank"><img src="behancePhoto1.jpg" alt="Hemorrhoids Are Gone" title="" width="404" height="316"/></a>
+	<div class="caption">
+		<p><a href="http://www.hemorrhoidsaregone.com/site" target="_blank">Hemorrhoids Are Gonep</a></p>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+		  </div>
+		</div>
+		<!-- /Portfolio -->
+		
+		<!-- About -->
+		<div id="about" class="panel">
+			<div class="content">
+				<h2>About</h2>
+				<p>
+                	Well, My name is Jason Storey and I design websites. Shocking isn't it?</p>
+                    
+                 <p>
+                 	But it's not just a hobby, oh no, it has turned into a full fledged obsession that I intend to spend the rest of my life fulfilling. Which brings us here, to my website.</p>
+                    <p>
+                     I am currently a freelance web designer living and learning in Southern California. I spend most of my free time building web pages or learning everything I can to better by design skills and advance myself in the web design industry. Fluent in HTML and CSS, I pride myself on designing web sites using standards-oriented, valid, and reusable code. <cite>"Cleanliness is next to Godliness"</cite>, as the saying goes.</p>
+                     <p>
+                     	I am currently working towards a BS in Computer Science as well as learning and exploring javascript, PHP, and MySQL with hopes of adding these to my "fluent" category very soon.</p>
+                        
+                        <p>
+                        Expertise in Adobe CS6 including: Photoshop, Illustrator, Dreamweaver, and Flash.
+
+                </p>
+                <p>
+                	If you are looking for a freelance web designer and would like a quote on a website project check out my contact page.</p>
+                    
+                   
+			</div>
+		</div>
+		<!-- /About -->
+		
+		<!-- Contact -->
+		<div id="contact" class="panel">
+			<div class="content">
+				<h2>Contact</h2>
+				<p>You can reach me by emailing me at jasons@thwebco.com</p><br />
+				<p>or message me via my Facebook for Twitter!</p>
+                <p><a href="http://www.facebook.com/pages/Jason-Storey-Interactive-Web-Design/144592348898757"><img src="facebooklogo.png" width="30" height="41"></a></p>
+                <p><a href="http://www.twitter.com/thestoreybook"><img src="twitterlogo.png" width="30" height="41"></a></p>
+			
+				
+		  </div>
+		</div>
+		<!-- /Contact -->
+		
+		<!-- Header with Navigation -->
+		<div id="header">
+			<h1 style="font-size:22px"><img src="navlogowhite.png" width="197" height="146"><br /></h1>
+			
+			<ul id="navigation">
+			  <li><a id="link-home" href="#home">Home</a></li>
+				<li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
+				<li><a id="link-about" href="#about">About Me</a></li>
+				<li><a id="link-contact" href="#contact">Contact</a></li>
+			</ul>
+			<!-- Demo Nav -->
+			
+	</div>
+
+	</body>
+</html>

@@ -1,0 +1,344 @@
+/*=======================================================================
+
+	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
+	
+	*** This is where you should keep all of your design specific styles ***
+ 
+ ========================================================================*/
+
+
+.navbar {
+		
+		width: 100%
+		
+		display: table;
+		
+		margin-bottom: 20px;
+		background: #f2f2f2; /* Change this to suit the color theme of your site */
+		
+	}
+	
+	
+
+	
+	.navbar ul {
+		display: table;
+		width: 100%;
+		float: none;
+		vertical-align: middle;
+		margin-bottom: 0;
+	}
+	
+	.navbar ul li {
+		display: inline;
+		float: left;
+		list-style-type: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		
+		text-align: left;
+		
+		
+	}
+	
+	.navbar > ul > li > a {
+		display: block;
+		
+		height: 55px;
+		line-height: 55px;
+		font-size: 110%;
+		padding:0 15px 0 15px;
+		margin:0;
+		color: #035e97;
+		font-family: "Century Schoolbook";
+		
+	}
+	
+	.navbar > ul > li .field {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+	}
+	
+	.navbar > ul > li .field .search input {
+		line-height: 14px;
+	}
+	
+	.navbar > ul > li > a:hover{	
+		position: relative;
+		background: #7e8d09;
+		color: #f2f2f2;
+		
+	}
+	
+	
+	
+	.navbar > ul > li > li > a {
+		padding: 0;
+	}
+	
+	
+	
+	
+	/**** Navbar positioning for Microsoft's browser who deserves not to be mentioned ****/
+	
+	.oldie .navbar, .oldie .navbar > ul > li > a { display: block; }
+	
+	.oldie .navbar .logo, .oldie .navbar ul, .oldie .navbar ul li { float: left; display: inline-block; }
+	
+	.oldie .navbar .logo a { display: block; overflow: hidden; }
+	
+	.oldie .navbar > ul > li .field { display: inline-block; padding: 0 18px; }
+	
+	
+	/******** CSS3 Dropdown Menu Styles **********/
+	
+	.navbar li .dropdown {
+		width: auto;
+		min-width: 250px;
+		max-width: 285px;
+		height: 0;
+		position: absolute;
+		background: #f2f2f2;
+		overflow: hidden;
+		z-index: 999;
+	}
+	
+	.navbar li:hover .dropdown {
+		min-height: 60px;
+		max-height: 500px;
+		height: auto;
+		padding: 0;
+		border-top: 1px solid #1d692d;
+		
+		-webkit-box-shadow: 0px 3px 4px rgba(0,0,0,.3);
+		-moz-box-shadow: 0px 3px 4px rgba(0,0,0,.3);
+		box-shadow: 0px 3px 4px rgba(0,0,0,.3);
+	
+	
+		-webkit-transition: ease-in-out .2s;
+		-moz-transition: ease-in-out .2s;
+		-o-transition: ease-in-out .2s;
+		-ms-transition: ease-in-out .2s;
+		transition: ease-in-out .2s;
+	}
+
+	.navbar li .dropdown ul {
+		margin: 0;
+	}
+	
+	.navbar li .dropdown ul > li {
+		display: block;
+		width: 100%;
+		float: left;
+		text-align: left;
+		height: auto;
+		font: 16px "Century Schoolbook", arial, sans-serif;
+		border-radius: none;
+	} 
+	.dropdown ul li a {
+		color: #035e97;
+	}
+	
+	.navbar li .dropdown ul > li a {
+		display: block;
+		line-height: 26px;
+		height: 26px;
+		padding: 10px 20px;
+		border-bottom: 1px solid #ddd;
+	}
+	
+	.navbar ul .dropdown ul li:first-child a {
+		border-radius: 0;
+	}
+	
+	.navbar li .dropdown li a:hover {
+		background: #ebfeee;
+	}
+	
+	@media only screen and (max-width: 767px) {
+		
+		.navbar, .pretty.navbar {
+	  	background: transparent;
+	  	border: 0;
+	  	text-align: center;
+	  	-webkit-box-shadow: none !important;
+	  	box-shadow: none !important;
+	  }
+	  
+	  .navbar .logo {
+	  	display: block;
+	  	margin-bottom: 30px;
+	  }
+		  
+	  .navbar ul {
+	  	display: block;
+	  	width: 100%;
+	  	margin-left: 0 !important;
+	  	box-sizing: border-box;
+	  }
+	  
+	  .navbar ul li {
+	  	display: block;
+	  	width: 100%;
+	  	border-right: 0 !important;
+	  }
+	
+	  .navbar ul li > a {
+			font-size: 22px !important;
+			border: 1px solid #1d692d;
+			background: #f2f2f2; /* Old browsers */
+	  }
+	  
+	  .navbar > ul > li .field {
+	  	padding-top: 20px;
+	  	width: 90%;
+	  }
+	  
+	  .navbar > ul > li .search {
+	  }
+	  
+	  .navbar li a:hover, .navbar > ul > li:first-child, .navbar > ul > li:first-child a:hover, .navbar > ul > li:last-child, .navbar > ul > li:last-child a:hover {	
+	  	box-shadow: none;
+	  }
+	  
+	  .navbar > ul > li:last-child, .navbar > ul > li:last-child a:hover {
+	  	border-right: none;
+	  }
+	  
+	  .navbar li:first-child a {
+	  	border-radius: 4px 4px 0 0 !important;
+	  }
+	  
+	  .navbar li:last-child a {
+	  	border-radius: 0 0 4px 4px !important;
+	  }
+	  
+	  .navbar li:hover .dropdown {
+	  	display: none;
+	  }
+	  
+	  .pretty.navbar ul li > a {
+	  	background: -moz-linear-gradient(top, #5dbb73 0%, #2d9047 100%); /* FF3.6+ */
+	  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5dbb73), color-stop(100%,#2d9047)); /* Chrome,Safari4+ */
+	  	background: -webkit-linear-gradient(top, #5dbb73 0%,#2d9047 100%); /* Chrome10+,Safari5.1+ */
+	  	background: -o-linear-gradient(top, #5dbb73 0%,#2d9047 100%); /* Opera 11.10+ */
+	  	background: -ms-linear-gradient(top, #5dbb73 0%,#2d9047 100%); /* IE10+ */
+	  	background: linear-gradient(top, #5dbb73 0%,#2d9047 100%); /* W3C */
+	  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5dbb73', endColorstr='#2d9047',GradientType=0 ); /* IE6-9 */
+	  	
+	  	-webkit-box-shadow: inset 0 1px 1px #94dda6; 
+	  	-moz-box-shadow: inset 0 1px 1px #94dda6;
+	  	box-shadow: inset 0 1px 1px #94dda6;
+	  }
+	  
+	  .navbar ul li:hover > a {
+	  	background: #05390a;
+	  	border-right: none;
+	  	box-shadow: none !important;
+	  }
+	  
+	  .pretty.navbar ul li .btn {
+	  	margin-top: 20px;
+	  }
+	  
+	}
+	
+	
+	
+	
+	.header {
+		background: #f2f2f2;
+		padding: 20px 10px 10px 10px;
+		margin-bottom: 1px;
+		
+		
+	}
+	.header h1 {
+		font-family: "Century Schoolbook";
+		color:#035e97;
+		padding:0;
+		margin:0;
+	}
+	h3 {
+		font-family: "Helvetica Neue";
+		color: #f2f2f2;
+		margin: 150px 0 0 10px;
+	}
+	h4 {
+		font-family: "Helvetica Neue";
+		color: #f2f2f2;
+		margin-left: 10px;
+	}
+	.four, .columns p {
+		margin-left: 10px;
+		margin-top: 10px;
+		color: white;
+		font-size: 110%;
+		
+	}
+	.banner {
+		margin-bottom: 30px;
+	}
+	.mainContent {
+		width: 100%;
+		background: #f2f2f2;
+		padding: 20px 10px;
+		margin-bottom: 40px;
+	}
+	.leftContent {
+		
+	}
+	.leftContent h2 {
+		color: #035e97;
+		font-family: "Helvetica Neue";
+		padding-left: 5px;
+	}
+	.leftContent p {
+		font-family: "Helvetica Neue";
+		color: #000;
+		text-align: justify;
+	}
+	.footer {
+		width: 100%;
+		background: #f2f2f2;
+		padding: 10px 10px;
+		
+	}
+	.copy p{
+		color: #000;
+		font-size: 80%;
+	}
+	.author p{
+		color: #000;
+		font-size: 80%;
+		text-align: right;
+	}
+	.links a{
+		color:#035e97;
+		font-size: 85%;
+	}
+	.links a:hover{
+		color: #000;
+	}
+ @-moz-document url-prefix() {
+    .header {
+		background: #f2f2f2;
+		padding: 20px 10px 10px 10px;
+		margin-bottom: 1px;
+		width: 100%
+		
+		
+	}
+	
+	.navbar {
+		
+		width: 960px;
+		
+		display: table;
+		
+		margin-bottom: 20px;
+		background: #f2f2f2; /* Change this to suit the color theme of your site */
+		
+	}
+}

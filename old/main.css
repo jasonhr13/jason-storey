@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+	margin:0 0 0 0;
+	background: #0b5c67;
+	height:100%;
+
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+h1,h2,h3,h4 {
+	font-family:Tahoma, Geneva, sans-serif;
+	color: #33ff99;	
+}
+
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	color:#fff;
+	
+}
+
+
+hr {
+	color: #f2f2f2;
+	width: 60%;
+	margin:auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 80%;
+	
+	
+	
+}
+
+#header {
+	margin-bottom: 100px;
+	width:100%;
+  
+}
+
+.logo {
+   background-image:url(siteLogo.jpg);
+   width: 400px;
+   height:148px;	
+   
+}
+
+#content {
+	width: 65%;
+	height:auto;
+	float:left;
+	margin-bottom: 40px;
+	padding: 10px;
+	
+	
+}
+
+#left {
+	width: 16%;
+	float:left;
+	padding-bottom:10px;
+	margin-right: 55px;
+	
+}
+
+#right{
+	width:65%;
+	
+}
+
+#footer {
+	
+	position:relative;
+	clear:both;
+	
+}
+
+.links {
+	width: 60%;
+	height: 50px;
+	margin: 0 auto;
+	color: #fff;
+	text-align:left;
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.75em;
+	
+}
+
+
+#nav{
+	width:560px;
+	text-align:left;
+	padding:0;
+	float:right;
+	position: relative;
+	top: -47px;
+}
+ul.nav {
+	
+	list-style-type:none;
+  	
+}
+ul.nav li {
+	display:inline;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1.5em;
+	padding: 5px;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	text-decoration:none;
+	color: #33ff99;
+}
+
+
