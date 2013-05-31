@@ -380,7 +380,20 @@ a.enlarge:before {
 #work4 figure {margin-bottom:15px;}
 #work4 figure a:before {color: #ff1440;}
 /*--------------------------------------------------------------------------------------------------*/
+/* WORK 04  */
 
+#work5 {background-color: #fafafa; padding-top:100px;}
+
+#work5 h3 {font: 30px 'ExoThin', Arial, sans-serif; text-transform: uppercase; color: #ff1440; }
+
+#work5 h4 {font:20px/20px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; margin-bottom:25px;}
+
+#work5 p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:20px;}
+
+#work5-slider {background:none;height:351px;}
+
+#work5 figure {margin-bottom:15px;}
+#work5 figure a:before {color: #ff1440;}
 
 /* GALLERY  */
 
