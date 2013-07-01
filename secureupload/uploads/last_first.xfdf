@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+		<f href="https://secure.smartapp1003.com/pdfs/1003irev.pdf"/>
+		<ids original="7A0631678ED475F0898815F0A818CFA1"
+		modified="BEF7724317B311718E8675B677EF9B4E"/>
+		<fields><field name="Assets and Liabilities check box 1">
+					<value>Off</value>
+				</field><field name="Check Box6">
+					<value>Yes</value>
+				</field><field name="Mortgage Applied For">
+					<value>VA</value>
+				</field><field name="Date Stamp">
+					<value>01/27/2012</value>
+				</field><field name="Agency Case Number">
+					<value></value>
+				</field><field name="Lender Case Number">
+					<value></value>
+				</field><field name="Amount">
+					<value>5.00</value>
+				</field><field name="Interest Rate">
+					<value>0.000</value>
+				</field><field name="No"><field name=" of Months">
+						<value>480</value>
+					</field><field name=" of Units">
+						<value>5</value>
+					</field></field><field name="Amortization Type">
+					<value>GPM</value>
+				</field><field name="Year Built">
+					<value>0</value>
+				</field><field name="Purpose of Loan">
+					<value>Refinance</value>
+				</field><field name="Property will be">
+					<value>Primary Residence</value>
+				</field><field name="Borrower Name">
+					<value>first  last</value>
+				</field><field name="Borrower DOB">
+					<value>03/04/2005</value>
+				</field><field name="Borrower DOB Yrs School">
+					<value>0</value>
+				</field><field name="Borrower Home Phone">
+					<value>(555) 555-5555</value>
+				</field><field name="Borrower Mailing Address if different from Present">
+					<value>, , , </value>
+				</field><field name="Borrower Present Address">
+					<value>5 street, City, CA, 90620</value>
+				</field><field name="Borrower SSN">
+					<value>555555555</value>
+				</field><field name="Borrower Marital Status">
+					<value>Unmarried</value>
+				</field><field name="Borrower Name and Address of Employer">
+					<value> , , , </value>
+				</field><field name="Borrower No of Years">
+					<value>0</value>
+				</field><field name="Borrower Own or Rent">
+					<value>Rent</value>
+				</field><field name="Borrower Self Employed">
+					<value>Off</value>
+				</field><field name="Borrower Years employed in this Profession">
+					<value>0</value>
+				</field><field name="Borrower Years on the job">
+					<value>0</value>
+				</field><field name="Borrower Business phone">
+					<value></value>
+				</field><field name="Borrower Position/Title/Type of Business">
+					<value></value>
+				</field><field name="Dependents not listed by Co-Borrower no">
+					<value>0</value>
+				</field><field name="Dependents not listed by Co-Borrower ages">
+					<value></value>
+				</field><field name="Original Cost">
+					<value></value>
+				</field><field name="Amount Existing Liens">
+					<value></value>
+				</field><field name="Present Value of Lot">
+					<value></value>
+				</field><field name="Cost of Improvements">
+					<value></value>
+				</field><field name="Year Lot Acquired">
+					<value></value>
+				</field><field name="Subject Property Address">
+					<value>5 street, City, CA, 90620</value>
+				</field><field name="Subject Property Description">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense First M 1">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense First M Proposed 2">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Hazard Ins a8">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Homeowner Assn"><field name=" Dues Proposed a25">
+						<value></value>
+					</field><field name=" Dues a25">
+						<value></value>
+					</field></field><field name="Combined Monthly Housing Expense Mortgage Insurance Proposed a20">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Mortgage Insurance a19">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Other Proposed a28">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Other a27">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Real Estate Taxes Proposed a15">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Real Estate Taxes a14">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense Rent Present a">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense there Financing Proposed a4">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense there Financing Proposed a9">
+					<value></value>
+				</field><field name="Combined Monthly Housing Expense there Financing a3">
+					<value></value>
+				</field><field name="Monthly income Borrower Base a">
+					<value></value>
+				</field><field name="Monthly income Borrower Bonuses 1">
+					<value></value>
+				</field><field name="Monthly income Borrower Bonuses a1">
+					<value></value>
+				</field><field name="Monthly income Borrower Commissions a5">
+					<value></value>
+				</field><field name="Monthly income Borrower Dividends a10">
+					<value></value>
+				</field><field name="Monthly income Borrower Net Rental income 16">
+					<value>0</value>
+				</field><field name="Monthly income Borrower Other a21">
+					<value></value>
+				</field><field name="borrower do not wish">
+					<value>Off</value>
+				</field><field name="race 1">
+					<value>Off</value>
+				</field><field name="race 2">
+					<value>Off</value>
+				</field><field name="race 3">
+					<value>Off</value>
+				</field><field name="race 4">
+					<value>Off</value>
+				</field><field name="race 5">
+					<value>Off</value>
+				</field><field name="Sex borrower">
+					<value>Male</value>
+				</field><field name="Ethnicity 1">
+					<value>Not</value>
+				</field><field name="Automobiles Owned Make and Year">
+					<value>0</value>
+				</field><field name="Text1">
+					<value></value>
+				</field><field name="Vested interest in Retirement Fund">
+					<value></value>
+				</field><field name="Net Worth of Business owned">
+					<value></value>
+				</field><field name="Other Assets Itemize">
+					<value></value>
+				</field><field name="Owned Real Estate Address 1 Net Rental Income a">
+					<value></value>
+				</field><field name="Borrower Judgements against">
+					<value>2</value>
+				</field><field name="Borrower Bankrupt">
+					<value>5</value>
+				</field><field name="Borrower Lawsuit">
+					<value>5</value>
+				</field><field name="Check Box">
+					<value>5</value>
+				</field><field name="Borrower Liability">
+					<value>5</value>
+				</field><field name="f borrower">
+					<value>2</value>
+				</field><field name="g borrower">
+					<value>2</value>
+				</field><field name="h borrower">
+					<value>2</value>
+				</field><field name="i borrower">
+					<value>2</value>
+				</field><field name="j borrower">
+					<value>2</value>
+				</field><field name="k borrower">
+					<value>2</value>
+				</field><field name="m borrower">
+					<value>2</value>
+				</field></fields>
+			</xfdf>

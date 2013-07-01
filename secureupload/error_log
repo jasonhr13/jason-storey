@@ -1,0 +1,6 @@
+[26-Jun-2013 15:16:50] PHP Parse error:  syntax error, unexpected T_ELSE in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-1003.php on line 25
+[26-Jun-2013 15:21:55] PHP Parse error:  syntax error, unexpected ')' in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-1003.php on line 10
+[26-Jun-2013 15:22:09] PHP Parse error:  syntax error, unexpected ')' in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-1003.php on line 10
+[26-Jun-2013 15:25:12] PHP Parse error:  syntax error, unexpected ')' in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-1003.php on line 10
+[27-Jun-2013 16:56:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-smartapp.php on line 25
+[28-Jun-2013 18:32:00] PHP Warning:  Header may not contain more than a single header, new line detected. in /home5/thestore/public_html/securepdfmerge/lenderhomepage/uploader-1003.php on line 20
