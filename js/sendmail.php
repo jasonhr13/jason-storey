@@ -2,9 +2,9 @@
 
 // basic settings section
 $sendto = 'jasons@thwebco.com';
-$subject = 'Contact from a contact form';
+$subject = 'LEAD: From Jason-Storey.com';
 $iserrormessage = 'There was a problem with sending e-mail to us, please check:';
-$thanks = "Thank's for your message! We'll contact with You as soon as it is possible!";
+$thanks = "Thank's for your message! I'll contact You as soon as it is possible!";
 
 $emptyname =  'Did you enter your name?';
 $emptyemail = 'Did you enter your e-mail address?';
