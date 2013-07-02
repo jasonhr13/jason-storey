@@ -19,9 +19,6 @@ $alertphone = 'Please enter your phone number without any special characters, on
 $alert = '';
 $iserror = 0;
 
-// cleaning the post variables
-function clean_var($variable) {$variable = strip_tags(stripslashes(trim(rtrim($variable))));return $variable;}
-
 // validation of filled form
 if ( empty($_REQUEST['name']) ) {
 	$iserror = 1;
