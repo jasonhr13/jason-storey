@@ -19,6 +19,9 @@ $alertphone = 'Please enter your phone number without any special characters, on
 $alert = '';
 $iserror = 0;
 
+// cleaning the post variables
+function clean_var($variable) {$variable = strip_tags(stripslashes(trim(rtrim($variable))));return $variable;}
+
 // validation of filled form
 if ( empty($_REQUEST['name']) ) {
 	$iserror = 1;
@@ -57,10 +60,10 @@ echo "</ul>";
 } else {
 // if everything went fine, send e-mail
 
-$msg = "From: " . clean_var($_REQUEST['name']) . "\n";
-$msg .= "Email: " . clean_var($_REQUEST['email']) . "\n";
-$msg .= "Message: \n" . clean_var($_REQUEST['message']);
-$header = 'From:'. clean_var($_REQUEST['email']);
+$msg = "From: " . $_REQUEST['name'] . "\n";
+$msg .= "Email: " . $_REQUEST['email'] . "\n";
+$msg .= "Message: \n" . $_REQUEST['message'];
+$header = 'From:'. $_REQUEST['email'];
 
 mail($sendto, $subject, $msg, $header);
 
