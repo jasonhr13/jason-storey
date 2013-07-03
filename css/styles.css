@@ -1,10 +1,7 @@
 .container{margin:0 auto;}
 body {overflow-x:hidden;}
 
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* NAVBAR  */
 
 
 .navbar {position:fixed; z-index:3000;}
@@ -79,10 +76,7 @@ body {overflow-x:hidden;}
 .navbar .btn-group {
   margin-top: 15px;
 }
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* Image styles  */
 
 
 .mobile-img {margin-top:60px;}
@@ -177,10 +171,7 @@ a.enlarge:before {
 }
 
 .margin-left {margin-left:60px;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* Button - red version */
 
 
 .btn-red {
@@ -234,10 +225,7 @@ a.enlarge:before {
        -o-transition: background-position 0s linear;
           transition: background-position 0s linear;
   }
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* HOME  */
 
 
 #home {background-color: #000; }
@@ -249,10 +237,7 @@ a.enlarge:before {
 .more {background: url(../img/more.png) center no-repeat ;text-align: center; height:70px; padding-top:25px; position:absolute; bottom:0px; margin-bottom:-13px; display:block; z-index:100; }
 .more a {font: 35px 'JournalRegular', Arial, sans-serif; color:#ff1440;}
 .more a:hover {text-decoration:none; color:#ff728c;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* ABOUT US  */
 
 
 #about {background-color: #fff; padding-bottom:100px;position:relative; z-index:2000; display:block }
@@ -282,10 +267,7 @@ a.enlarge:before {
 #team h5 {font:20px/20px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; margin-bottom:25px;text-align:center;}
 
 #team p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:50px; text-align:center;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* SERVICES  */
 
 
 #services {background: #1d1d1d url(../img/services_bg.jpg) repeat-y center fixed; padding-bottom:50px;}
@@ -310,10 +292,7 @@ a.enlarge:before {
 /* extra bordering for list items */
 .list.bordered li {border-bottom:dashed 1px #383333}
 .list.bordered li.last-child {border-bottom:0;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* WORK 01  */
 
 
 #work1 {background-color: #fff; }
@@ -326,10 +305,7 @@ a.enlarge:before {
 #work1 p {font-weight:200; color:#a1a1a1;font-size: 13px; line-height:22px; margin-bottom:20px;}
 
 #work1-slider {background:none; height:351px;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* WORK 02  */
 
 
 #work2 {background-color: #fafafa; padding-top:100px;}
@@ -344,10 +320,7 @@ a.enlarge:before {
 
 #work2 figure {margin-bottom:15px;}
 #work2 figure a:before {color: #ff1440;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* WORK 03  */
 
 
 #work3 {background-color: #fff; padding-top:100px; }
@@ -362,10 +335,7 @@ a.enlarge:before {
 
 #work3 figure {margin-bottom:15px;}
 #work3 figure a:before {color: #ff1440;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* WORK 04  */
 
 #work4 {background-color: #fafafa; padding-top:100px;}
 
@@ -379,8 +349,7 @@ a.enlarge:before {
 
 #work4 figure {margin-bottom:15px;}
 #work4 figure a:before {color: #ff1440;}
-/*--------------------------------------------------------------------------------------------------*/
-/* WORK 04  */
+
 
 #work5 {background-color: #fff; padding-top:100px;}
 
@@ -395,7 +364,7 @@ a.enlarge:before {
 #work5 figure {margin-bottom:15px;}
 #work5 figure a:before {color: #ff1440;}
 
-/* GALLERY  */
+
 
 #gallery {background: #1d1d1d url(../img/gallery_bg.jpg) repeat center; padding-bottom:50px;}
 
@@ -406,10 +375,7 @@ a.enlarge:before {
 #gallery h3 {font: 30px 'ExoThin', Arial, sans-serif; text-transform: uppercase; color: #ff1440; text-align:center; margin-top:15px;}
 
 #gallery h4 {font:20px/20px 'JournalRegular', Arial, sans-serif;color:#7ca5b7; text-align:center; margin-bottom:50px;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* CONTACT  */
 
 #map {height:550px; width:100%; margin-bottom:80px; position: relative; z-index:2000;}
 
@@ -445,10 +411,7 @@ a.enlarge:before {
 .list-social li.dribbble a:hover {background-position:-96px -32px;}
 .list-social li.rss a {background-position:-128px 0;}
 .list-social li.rss a:hover {background-position:-128px -32px;}
-/*--------------------------------------------------------------------------------------------------*/
 
-
-/* FOOTER  */
 
 #footer {background-color: #1d1d1d; }
 
